@@ -1,0 +1,62 @@
+//. N3
+let array2 = ["hello1", 14, 24, "hello2"];
+let numbers = array2.filter(function(element) {
+    return typeof element === "number"
+});
+console.log(numbers)
+
+
+
+
+//.N4   
+let languages = ['html', 'css', 'javascript', 'python', 'php'];
+let result1 =languages.filter(function(word) {
+    return word.length > 3
+});
+console.log(result1)
+
+
+
+
+//. N5 
+let words = ['Madrid', 'rome', 'Milan', 'berlin'];
+let result2 = words.filter(function(word) {
+    return word.includes('M')
+});
+console.log(result2)
+
+
+
+//.N7
+
+let array7 = [5, 4, 3, 2, 1];
+let result3 = array7.map(function(number) {
+    return number * number
+});
+console.log(result3)
+
+
+
+
+//. N16
+let array16 = [1, 2, 3, 4, 5];
+array16.splice(3, 0, 'a', 'b', 'c')
+console.log(array16)
+
+
+
+
+
+//. N17
+let array17 = [15, 100, 25, 10, 36]
+array17.splice(3, 1)
+console.log(array17)
+
+
+
+
+
+//. N18
+let array18 = [1, 2, 3, 4, 5]
+array18.splice(2, 1, 'three')
+console.log(array18)
