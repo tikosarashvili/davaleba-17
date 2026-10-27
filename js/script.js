@@ -37,6 +37,69 @@ console.log(result3)
 
 
 
+//. N10
+let arr1 = [1, 2]
+let arr2 = [3, 4]
+let arr3 = [5, 6]
+let result = arr1.concat(arr2, arr3)
+console.log(result)
+
+
+
+
+//. N12
+let info = 'good day'
+let newInfo = info.slice(5, 8)
+console.log(newInfo)
+
+
+
+//.N14
+let array = [5, 25, 89, 120, 36];
+
+// მასივის ბოლოში ორი ელემენტის დამატება
+array.push('javascript', 'python')
+
+// მასივის დასაწყისში ორი ელემენტის დამატება
+array.unshift('html', 'css')
+
+// ელემენტების რაოდენობის გამოტანა
+console.log(array.length)
+
+// პირველი და ბოლო ელემენტების წაშლა
+array.shift()
+array.pop()
+
+
+//.N15
+let fruits = ['orange', 'banana', 'kiwi']
+// საწყისი ელემენტების რაოდენობა
+console.log(fruits.length)
+
+// მასივის ბოლოში ორი ელემენტის დამატება
+fruits.push('apple', 'pineapple')
+
+// მასივის დასაწყისში ელემენტის დამატება
+fruits.unshift('watermelon')
+
+// ელემენტების რაოდენობა დამატების შემდეგ
+console.log(fruits.length)
+
+// მასივის მე-3 ადგილზე მანგოს დამატება
+fruits.splice(2, 0, 'mango')
+
+// პირველი ელემენტის წაშლა
+fruits.shift()
+
+// ბოლო ელემენტის წაშლა
+fruits.pop()
+
+// დარჩენილი ელემენტების რაოდენობა
+console.log(fruits.length)
+
+
+
+
 
 //. N16
 let array16 = [1, 2, 3, 4, 5];
@@ -60,3 +123,17 @@ console.log(array17)
 let array18 = [1, 2, 3, 4, 5]
 array18.splice(2, 1, 'three')
 console.log(array18)
+
+
+//. N20
+let array20 = [12, 25, 3, 6, 8, 14, 7, 23]
+let newArray = array20.map(number => number / 3)
+console.log(newArray)
+
+
+
+
+//. N21
+let array21 = ['apple', 'orange', 'mango', 'kiwi']
+array21.splice(2, 0, 'strawberry', 'avocado')
+console.log(array21)
