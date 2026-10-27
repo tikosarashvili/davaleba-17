@@ -27,6 +27,8 @@ console.log(result2)
 
 
 
+
+
 //.N7
 
 let array7 = [5, 4, 3, 2, 1];
