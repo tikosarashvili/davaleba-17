@@ -59,9 +59,11 @@ let array = [5, 25, 89, 120, 36];
 
 // მასივის ბოლოში ორი ელემენტის დამატება
 array.push('javascript', 'python')
+console.log(array)
 
 // მასივის დასაწყისში ორი ელემენტის დამატება
 array.unshift('html', 'css')
+console.log(array)
 
 // ელემენტების რაოდენობის გამოტანა
 console.log(array.length)
@@ -69,6 +71,8 @@ console.log(array.length)
 // პირველი და ბოლო ელემენტების წაშლა
 array.shift()
 array.pop()
+console.log(array)
+
 
 
 //.N15
@@ -78,21 +82,26 @@ console.log(fruits.length)
 
 // მასივის ბოლოში ორი ელემენტის დამატება
 fruits.push('apple', 'pineapple')
+console.log(fruits)
 
 // მასივის დასაწყისში ელემენტის დამატება
 fruits.unshift('watermelon')
+console.log(fruits)
 
 // ელემენტების რაოდენობა დამატების შემდეგ
 console.log(fruits.length)
 
 // მასივის მე-3 ადგილზე მანგოს დამატება
 fruits.splice(2, 0, 'mango')
+console.log(fruits)
 
 // პირველი ელემენტის წაშლა
 fruits.shift()
+console.log(fruits)
 
 // ბოლო ელემენტის წაშლა
 fruits.pop()
+console.log(fruits)
 
 // დარჩენილი ელემენტების რაოდენობა
 console.log(fruits.length)
